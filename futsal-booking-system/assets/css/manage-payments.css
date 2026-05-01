@@ -1,0 +1,115 @@
+
+    .summary-card {
+        background: var(--bg-dark);
+        border-radius: 16px;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.25rem;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .summary-icon {
+        width: 60px;
+        height: 60px;
+        border-radius: 12px;
+        background: rgba(255,255,255,0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+    
+    .summary-content h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .summary-content p {
+        color: var(--text-muted);
+        margin: 0;
+        font-size: 0.875rem;
+    }
+    
+    .admin-card {
+        background: var(--bg-dark);
+        border-radius: 16px;
+        border: 1px solid rgba(255,255,255,0.1);
+        overflow: hidden;
+    }
+    
+    .admin-card .card-header {
+        background: rgba(255,255,255,0.05);
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .admin-card .card-header h5 {
+        margin: 0;
+        color: var(--text-light);
+        font-weight: 600;
+    }
+    
+    .admin-card .card-body {
+        padding: 1.5rem;
+    }
+    
+    .admin-table {
+        margin: 0;
+        color: var(--text-light);
+        background: #1B2335;
+    }
+    
+    .admin-table thead th {
+        background: #1B2335;
+        color: var(--text-muted);
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 0.5px;
+        padding: 1rem;
+        border: none;
+    }
+    
+    .admin-table tbody tr {
+        background: #1B2335;
+    }
+    
+    .admin-table tbody tr:hover {
+        background: #232d42;
+    }
+    
+    .admin-table tbody td {
+        padding: 1rem;
+        border-color: rgba(255,255,255,0.05);
+        vertical-align: middle;
+        background: #1B2335;
+    }
+    
+    .form-select, .form-control {
+        background: #1b2335;
+        border: 1px solid rgba(255,255,255,0.1);
+        color: #647189;
+    }
+    
+    .form-select option {
+        background: #1b2335;
+        color: #647189;
+    }
+    
+    .form-select:focus, .form-control:focus {
+        background: #1b2335;
+        border-color: var(--primary);
+        color: #647189;
+    }
+    
+    .amount-display {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: var(--primary);
+    }
+    

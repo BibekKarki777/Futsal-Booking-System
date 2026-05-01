@@ -1,0 +1,38 @@
+
+/* Info Box Styling for My Bookings */
+.info-box {
+    background: linear-gradient(135deg, #1b2335 0%, #232d42 100%);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 12px;
+    padding: 1rem;
+    height: 100%;
+}
+
+.info-box-title {
+    color: #10b981;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.3);
+    font-size: 0.95rem;
+}
+
+.info-box .detail-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.info-box .detail-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.info-box .detail-row span {
+    color: #94a3b8;
+}
+
+.info-box .detail-row strong {
+    color: #f1f5f9;
+}

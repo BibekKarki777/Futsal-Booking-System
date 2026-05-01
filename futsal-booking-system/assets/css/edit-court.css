@@ -1,0 +1,106 @@
+
+    .admin-card {
+        background: var(--bg-dark);
+        border-radius: 16px;
+        border: 1px solid rgba(255,255,255,0.1);
+        overflow: hidden;
+    }
+    
+    .admin-card .card-header {
+        background: rgba(255,255,255,0.05);
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .admin-card .card-header h5 {
+        margin: 0;
+        color: var(--text-light);
+        font-weight: 600;
+    }
+    
+    .admin-card .card-body {
+        padding: 1.5rem;
+    }
+    
+    .form-control, .form-select {
+        background: #1b2335;
+        border: 1px solid rgba(255,255,255,0.1);
+        color: #647189;
+        padding: 0.75rem 1rem;
+    }
+    
+    .form-select option {
+        background: #1b2335;
+        color: #647189;
+    }
+    
+    .form-control:focus, .form-select:focus {
+        background: #1b2335;
+        border-color: var(--primary);
+        color: #647189;
+        box-shadow: 0 0 0 0.25rem rgba(16, 185, 129, 0.15);
+    }
+    
+    .form-label {
+        color: var(--text-muted);
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    
+    .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .stat-item:last-child {
+        border-bottom: none;
+    }
+    
+    .stat-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    
+    .stat-icon.bg-primary { background: linear-gradient(135deg, var(--primary), #059669); }
+    .stat-icon.bg-success { background: linear-gradient(135deg, #22c55e, #16a34a); }
+    .stat-icon.bg-info { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+    
+    .stat-info h4 {
+        margin: 0;
+        color: var(--text-light);
+        font-size: 1.25rem;
+    }
+    
+    .stat-info p {
+        margin: 0;
+        color: var(--text-muted);
+        font-size: 0.875rem;
+    }
+    
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .info-item:last-child {
+        border-bottom: none;
+    }
+    
+    .info-item span {
+        color: var(--text-muted);
+    }
+    
+    .info-item strong {
+        color: var(--text-light);
+    }
+    

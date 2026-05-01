@@ -1,0 +1,102 @@
+
+    .admin-card {
+        background: var(--bg-dark);
+        border-radius: 16px;
+        border: 1px solid rgba(255,255,255,0.1);
+        overflow: hidden;
+    }
+    
+    .admin-card .card-header {
+        background: rgba(255,255,255,0.05);
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .admin-card .card-header h5 {
+        margin: 0;
+        color: var(--text-light);
+        font-weight: 600;
+    }
+    
+    .admin-card .card-body {
+        padding: 1.5rem;
+    }
+    
+    .form-control, .form-select {
+        background: #1b2335;
+        border: 1px solid rgba(255,255,255,0.1);
+        color: #647189;
+        padding: 0.75rem 1rem;
+    }
+    
+    .form-select option {
+        background: #1b2335;
+        color: #647189;
+    }
+    
+    .form-control:focus, .form-select:focus {
+        background: #1b2335;
+        border-color: var(--primary);
+        color: #647189;
+        box-shadow: 0 0 0 0.25rem rgba(16, 185, 129, 0.15);
+    }
+    
+    /* Time input styling */
+    input[type="time"] {
+        color-scheme: dark;
+    }
+    
+    input[type="time"]::-webkit-calendar-picker-indicator {
+        filter: invert(0.4) sepia(0.5) saturate(0.5) hue-rotate(175deg);
+        cursor: pointer;
+        opacity: 0.7;
+    }
+    
+    input[type="time"]::-webkit-calendar-picker-indicator:hover {
+        opacity: 1;
+    }
+    
+    .form-label {
+        color: var(--text-muted);
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+    
+    .info-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    
+    .info-item:last-child {
+        border-bottom: none;
+    }
+    
+    .info-item span {
+        color: var(--text-muted);
+    }
+    
+    .info-item strong {
+        color: var(--text-light);
+    }
+    
+    .court-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .court-list li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+        color: var(--text-light);
+    }
+    
+    .court-list li:last-child {
+        border-bottom: none;
+    }
+    
